@@ -1,0 +1,13 @@
+
+<div class="table-responsive">
+    <table class="table">
+        <tr *ngFor="let emp of emps">
+            <td>{{emp.No}}</td>
+            <td>{{emp.Name}}</td>
+            <td>{{emp.Age}}</td>
+            <td><a routerLink="/edit/{{emp.No}}">Edit</a></td>
+            <td><a routerLink="/delete/{{emp.No}}">Delete</a></td>
+        </tr>
+    </table>
+</div>
+.

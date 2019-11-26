@@ -1,0 +1,7 @@
+{
+    "host" : "localhost",
+    "port" : 8888,
+    "database": "PuneDB",
+    "user": "dac",
+    "password": "dac"
+}
